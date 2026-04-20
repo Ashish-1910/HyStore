@@ -12,8 +12,8 @@ public class DatabaseConnection {
     // Database Configuration
     private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     private static final String DB_URL = "jdbc:mysql://localhost:3306/ecommerce_db";
-    private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "root123";  // CHANGE THIS!
+    private static final String DB_USER = "root_user";
+    private static final String DB_PASSWORD = "password";  // CHANGE THIS!
     
     // Get Database Connection
     public static Connection getConnection() throws SQLException, ClassNotFoundException {
